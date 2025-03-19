@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F8F8F8"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#9C27B0"
+        android:padding="16dp"
+        android:text="PHƯƠNG TRÌNH BẬC 2"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/edt_a"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Nhập A"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/edt_b"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="Nhập B" />
+
+    <EditText
+        android:id="@+id/edt_c"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="Nhập C" />
+
+    <Button
+        android:id="@+id/bt_next"
+        android:layout_width="165dp"
+        android:layout_height="wrap_content"
+        android:background="#8BC34A"
+        android:backgroundTint="#9C27B0"
+        android:layout_gravity="center"
+        android:text="TÍNH"
+        android:textColor="#F8F6F6"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/bt_cl"
+        android:layout_width="180dp"
+        android:layout_height="59dp"
+        android:layout_gravity="center"
+        android:text="XÓA" />
+
+</LinearLayout>
